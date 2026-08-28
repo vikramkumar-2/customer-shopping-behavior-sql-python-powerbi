@@ -231,8 +231,8 @@ Update the PostgreSQL connection details in the notebook / `Code_to_Connect_Jupy
 
 ## 👤 Author
 
-**[Your Name]**
-📧 your.email@example.com · 🔗 [LinkedIn](#) · 💻 [Portfolio](#)
+**Vikram Kumar**
+📧 connectwithvikramkumar@gmail.com · 🔗 [LinkedIn](#) · 💻 [Portfolio](#)
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
 
