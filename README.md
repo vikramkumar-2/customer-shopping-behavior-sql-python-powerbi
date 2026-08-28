@@ -65,17 +65,17 @@ The project mirrors a standard **industry end-to-end analytics workflow**:
 ## 🏗️ Project Architecture
 
 ```
-┌─────────────────────┐      ┌──────────────────────┐      ┌────────────────────────┐
-│   Raw CSV Dataset    │ ───▶ │  Python / pandas      │ ───▶ │  PostgreSQL Database    │
-│  3,900 transactions  │      │  Cleaning + Feature   │      │  Loaded via SQLAlchemy  │
-│  18 attributes       │      │  Engineering          │      │                         │
-└─────────────────────┘      └──────────────────────┘      └────────────┬────────────┘
-                                                                          │
-                                                                          ▼
+┌─────────────────────┐       ┌──────────────────────┐      ┌────────────────────────┐
+│   Raw CSV Dataset   │  ───▶│  Python / pandas      │ ───▶│  PostgreSQL Database   │
+│  3,900 transactions  │      │  Cleaning + Feature   │     │  Loaded via SQLAlchemy │
+│  18 attributes       │      │  Engineering          │     │                        │
+└─────────────────────┘       └──────────────────────┘      └────────────┬───────────┘
+                                                                         │
+                                                                         ▼
                               ┌──────────────────────┐      ┌────────────────────────┐
-                              │   Power BI Dashboard  │ ◀─── │  SQL Business Analysis  │
-                              │  Interactive, self-   │      │  10 targeted queries    │
-                              │  service exploration  │      │                         │
+                              │   Power BI Dashboard  │◀───│  SQL Business Analysis  │
+                              │  Interactive, self-   │     │  10 targeted queries    │
+                              │  service exploration  │     │                         │
                               └──────────────────────┘      └─────────────────────────┘
 ```
 
