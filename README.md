@@ -232,7 +232,7 @@ Update the PostgreSQL connection details in the notebook / `Code_to_Connect_Jupy
 ## 👤 Author
 
 **Vikram Kumar**
-📧 connectwithvikramkumar@gmail.com · 🔗 [LinkedIn](#) · 💻 [Portfolio](#)
+📧 connectwithvikramkumar@gmail.com · 🔗 [LinkedIn](https://www.linkedin.com/in/vikramkumar4/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bhj7DuOmSQ%2FKXSyJCSN2bWA%3D%3D) · 💻 [Portfolio](https://github.com/vikramkumar-2)
 
 If you found this project useful, consider giving it a ⭐ on GitHub!
 
